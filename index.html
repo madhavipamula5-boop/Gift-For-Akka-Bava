@@ -198,6 +198,9 @@
                          Yeppudu mi manchi korukune mi "MADHAVI" ❤️`;
         let i = 0;
         const speed = 40;
+        const letterDiv = document.getElementById('letterText');
+        letterDiv.innerHTML = '';
+        
         function typing() {
             if (i < text.length) {
                 document.getElementById('letterText').innerHTML += text.charAt(i);
